@@ -37,7 +37,12 @@ public class Main {
 //                break;
 //        }
 
-        printDayOfTheWeek(7);
+//        printDayOfTheWeek(7);
+//
+//        NumberInWord.printNumberInWord(9);
+
+        int year = NumberOfDaysInMonth.getDaysInMonth(6,666);
+        System.out.println("Is it a leap year? " + year);
 
 }
 
